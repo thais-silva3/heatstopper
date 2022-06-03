@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Ananda;
+    src: url(Ananda\ Black\ Personal\ Use.ttf);
+}
+
+
+:root {
+    --bgc: #A1E0E7;
+    --font1: Ananda;
+}
+
+
+body {
+    background-color: var(--bgc);
+}
+
+.HST {
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body p {
+    font-family: var(--font1);
+    color: #bd72b3;
+    size: 1000px;
+    text-align: center;
+    text-shadow: 5px #5e3959;
+}
+ 
+.VID {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    float: left;
+}
